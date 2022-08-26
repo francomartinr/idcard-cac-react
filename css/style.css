@@ -1,0 +1,125 @@
+/*--------GENERAL-------------*/
+.main {
+    height: 100vh;
+}
+
+
+/*--------MENU & NAVBAR---------------*/
+
+.navbar, .navbar-brand {
+    font-size: 24px;
+}
+
+/*--------COLUMNA 1 O IZQUIERDA---------------*/
+
+
+.columna-nombre {
+    background-color: #3E484A;
+    color: white;
+    padding: 100px;
+}
+
+.redes {
+    font-size: 28px;
+    gap: 20px;
+}
+
+.redes a {
+    color: white;
+}
+
+
+/*--------COLUMNA 2 O DERECHA---------------*/
+
+
+.columna-portfolio {
+    background-color: #B7B7B7;
+}
+
+
+/*--------TARJETA INFO---------------*/
+
+.perfil {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: -5%;
+    transform: translate(-50%, -50%);
+}
+
+.botonContacto, .botonEnviar, .botonInfo {
+    display: block;
+    margin: auto;
+}
+
+.botonInfo {
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 10rem;
+}
+
+.tarjeta {
+    background-color: white;
+    position: relative;
+    border-radius: 25px;
+    padding: 80px 25px 25px 25px;
+    margin: 140px 0 100px 0;
+    width: 32rem;
+    /*height: 500px;*/
+}
+
+.tarjeta-titulo, .tarjeta-parrafo {
+    text-align: center;
+}
+
+.tarjeta-parrafo {
+    font-size: 14px;
+}
+
+.lista-tec {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+
+
+/*--------LISTA TECNOLOGIAS--------------*/
+
+.logo {
+    width: 30px;
+}
+
+.logoPhp {
+    width: 50px;
+}
+.logoWp {
+    width: 40px;
+}
+
+/*--------TARJETA CONTACTO---------------*/
+
+
+.oculto {
+    display: none;
+}
+
+
+
+
+
+
+
+@media(max-width:650px) {
+    .columna-nombre, .columna-portfolio {
+        width: 100%;
+    }
+}
+
+@media(max-width:1024px) {
+    .tarjeta {
+        width: 20rem;
+    }
+}
